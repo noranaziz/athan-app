@@ -1,0 +1,18 @@
+# Outline:
+1. **Web Framework:**
+   - ASP.NET Core: This is a popular and modern framework for building web applications using C#. It is cross-platform, open-source, and has good community support.
+   - I can use ASP.NET Core to create both the back-end (server-side logic) and the front-end (using technologies like Razor Pages or a front-end framework like Angular, React, or Vue.js).
+
+2. **Backend Development:**
+   - Fetch Prayer Times: Integrate with this API: https://aladhan.com/prayer-times-api
+   - User Authentication: Implement user accounts if you want to provide personalized features or notifications.
+   - Consider incorporating additional features like Qibla direction, Islamic calendar, or other relevant information.
+
+3. **Frontend Development:**
+   - Design a user-friendly interface that displays prayer times clearly.
+   - Implement responsive design to ensure a seamless experience across various devices.
+   - Consider adding features like location detection to automatically determine the user's location or allowing users to set their preferred location.
+
+4. **Deployment:**
+   - Choose a hosting solution for the web app. Azure, AWS, and other cloud platforms are common choices for hosting ASP.NET Core applications. I may use github pages for this initially.
+   - Configure a domain and set up SSL for secure communication.
