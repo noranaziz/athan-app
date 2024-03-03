@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7dp/qGjAmMcqgoLacweVzcnBhQPmHAxrO6GbQ+Zc3PA3y41ZD4g6D+M2deX9ax2t7TJBVsUE2bOqIE70cLxv2w==",
+  "dgSpecHash": "bsfLQl3NrczKdAb8AD097OroXaSDS/irKratADB4W/WCZAvYf39KClpUiATyOlJ0YLlVkGslBFsUQuvUD+xbnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noran\\.vscode\\personal projects\\athan\\AthanApp\\AthanApp.csproj",
+  "projectFilePath": "c:\\Users\\noran\\.vscode\\personal projects\\athan\\AthanApp\\AthanApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noran\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

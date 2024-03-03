@@ -7,9 +7,9 @@ class PrayerTimes {
     static async Task Main() {
         // ask user for city and country
         Console.WriteLine("Enter your city: ");
-        string city = Console.ReadLine();
+        string city = Console.ReadLine()!;
         Console.WriteLine("Enter your state: ");
-        string state = Console.ReadLine();
+        string state = Console.ReadLine()!;
 
         string baseURL = "http://api.aladhan.com/v1/";
 
@@ -22,12 +22,19 @@ class PrayerTimes {
             if(response.IsSuccessStatusCode) {
                 string result = await response.Content.ReadAsStringAsync();
                 Console.WriteLine(result);
+
+                // if response worked, parse the result
+                PrayerTimesResponse? prayerTimes = JsonConvert.DeserializeObject<PrayerTimesResponse>(result);
+
+                // print out specific prayer times
+                if(prayerTimes != null) {
+                    Console.WriteLine($"Fajr: {prayerTimes.PrayerData?.PrayerTimings?.Fajr}");
+                } else {
+                    Console.WriteLine("Error: Unable to deserialize PrayerTimesResponse");
+                }
             } else {
                 Console.WriteLine($"Error: {response.StatusCode}");
             }
-
-            // if response worked, parse the result to obtain specific prayer times
-
         }
     }
 }

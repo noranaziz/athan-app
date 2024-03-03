@@ -1,4 +1,0 @@
-C:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.AssemblyInfoInputs.cache
-C:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.AssemblyInfo.cs
-C:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.csproj.CoreCompileInputs.cache
