@@ -1,7 +1,3 @@
 public class PrayerTimesResponse {
-    public Data PrayerData { get; set; }
-
-    public PrayerTimesResponse() {
-        PrayerData = new Data();
-    }
+    public Data? PrayerData { get; set; }
 }
