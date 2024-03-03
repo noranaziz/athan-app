@@ -1,0 +1,17 @@
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\bin\Debug\net7.0\AthanApp.exe
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\bin\Debug\net7.0\AthanApp.deps.json
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\bin\Debug\net7.0\AthanApp.runtimeconfig.json
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\bin\Debug\net7.0\AthanApp.dll
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\bin\Debug\net7.0\AthanApp.pdb
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.csproj.AssemblyReference.cache
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.AssemblyInfoInputs.cache
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.AssemblyInfo.cs
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.csproj.CoreCompileInputs.cache
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.csproj.CopyComplete
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.dll
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\refint\AthanApp.dll
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.pdb
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\AthanApp.genruntimeconfig.cache
+c:\Users\noran\.vscode\personal projects\athan\AthanApp\obj\Debug\net7.0\ref\AthanApp.dll

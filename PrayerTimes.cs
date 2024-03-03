@@ -24,17 +24,32 @@ class PrayerTimes {
                 Console.WriteLine(result);
 
                 // if response worked, parse the result
-                PrayerTimesResponse? prayerTimes = JsonConvert.DeserializeObject<PrayerTimesResponse>(result);
+                try {
+                    PrayerTimesResponse? prayerTimes = JsonConvert.DeserializeObject<PrayerTimesResponse>(result);
 
-                // print out specific prayer times
-                if(prayerTimes != null) {
-                    Console.WriteLine($"Fajr: {prayerTimes.PrayerData?.PrayerTimings?.Fajr}");
-                } else {
-                    Console.WriteLine("Error: Unable to deserialize PrayerTimesResponse");
+                    // print out specific prayer times
+                    PrintPrayerTimes(prayerTimes);
+                } catch(JsonException ex) {
+                    Console.WriteLine($"Error during deserialization: {ex.Message}");
                 }
             } else {
                 Console.WriteLine($"Error: {response.StatusCode}");
             }
+        }
+    }
+
+    // method to print prayer times
+    static void PrintPrayerTimes(PrayerTimesResponse prayerTimes) {
+        if(prayerTimes != null && prayerTimes.data != null && prayerTimes.data.timings != null) {
+            var timings = prayerTimes.data.timings;
+
+            Console.WriteLine($"Fajr: {timings.Fajr}");
+            Console.WriteLine($"Dhuhr: {timings.Dhuhr}");
+            Console.WriteLine($"Asr: {timings.Asr}");
+            Console.WriteLine($"Maghreb: {timings.Maghrib}");
+            Console.WriteLine($"Isha: {timings.Isha}");
+        } else {
+            Console.WriteLine("Error: Unable to print prayer times. Data is null or incomplete.");
         }
     }
 }

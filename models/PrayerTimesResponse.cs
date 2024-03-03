@@ -1,3 +1,3 @@
 public class PrayerTimesResponse {
-    public Data? PrayerData { get; set; }
+    public Data? data { get; set; }
 }
